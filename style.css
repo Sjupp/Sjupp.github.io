@@ -1,0 +1,42 @@
+body { 
+    background: lightblue url("space3.jpg") no-repeat fixed center; 
+}
+
+@font-face {
+    font-family: moonFont;
+    src: url(Moon2.0-Regular.woff);
+}
+
+@keyframes spaceMan {
+    0%
+    {
+    	transform:translate(-11vw) rotate(0deg);
+    }
+
+    10%
+    {
+    	transform:translate(1vw) rotate(30deg);
+    }
+
+    to
+    {
+    	transform:translate(111vw) rotate(330deg);
+    }
+
+}
+
+.spaceMan {
+	animation-name: spaceMan;
+	animation-duration: 10s;
+}
+
+.moonF {
+	font-family: moonFont;
+	font-size: 64px;
+	color: hotpink;
+}
+
+.imageCrop {
+	border-radius: 100%;
+	width: 10%
+}
